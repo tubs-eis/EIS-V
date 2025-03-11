@@ -1,0 +1,27 @@
+# Simulation files
+*.ghw
+uart_out
+uart_in
+app/*.bin
+
+# Pyhton cache
+__pycache__
+.mypy_cache
+
+# VS Code Folders
+.vscode
+
+# Generated files
+eisv_config.vhd
+gatemate_rom.vhd
+arty_rom.vhd
+
+# Build directory
+/build
+
+# Questasim Files
+transcript
+/eisV
+/testbench
+/top_level
+

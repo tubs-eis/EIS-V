@@ -1,0 +1,10 @@
+Pin_in   "clk_i"  Loc = "IO_SB_A8" | SCHMITT_TRIGGER=true;
+Pin_in   "rst_ni"  Loc = "IO_EB_B0";
+Pin_out  "led_o[0]"  Loc = "IO_EB_B1"; # D1
+Pin_out  "led_o[1]"  Loc = "IO_EB_B2"; # D2
+Pin_out  "led_o[2]"  Loc = "IO_EB_B3"; # D3
+Pin_out  "led_o[3]"  Loc = "IO_EB_B4"; # D4
+Pin_out  "led_o[4]"  Loc = "IO_EB_B5"; # D5
+Pin_out  "led_o[5]"  Loc = "IO_EB_B6"; # D6
+Pin_out  "led_o[6]"  Loc = "IO_EB_B7"; # D7
+Pin_out  "led_o[7]"  Loc = "IO_EB_B8"; # D8
