@@ -21,7 +21,8 @@ To check which devices are available at what addresses refer to the simulation e
 ## Building Applications
 
 The provided makefile supports building and linking C source files as bare metal programs to be executed on the EIS-V core.
-While we tested building using clang other standard compliant C compilers should also work.
+To build a recent version of clang is required.
+We tested with clang 18, which can be installed with `apt install clang` on Ubuntu 24 LTS.
 
 To build an application place the C file containing the main function into the `app/` folder and call `make build/app/<application>.bin`, where <application> is the filename of the application without the `.c` extension.
 To build an application for loading over UART via the bootloader place the file in `system/app/` instead and call `make -C system/app <application>.bootloaderimage` this will produce a hex file in the format the bootloader expects.
