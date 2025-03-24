@@ -73,3 +73,19 @@ To extend the simulation environment modify the file `sim/common/eisv-mem-system
 During elaboration the constructor of the SystemC module `main` sets up a memory by initializing peripheral devices and adds them to the simulation system by calling `system.add_device`.
 To program additional peripheral devices implement the interface defined in `sim/common.eisv-mem-system/device.h`.
 Additional CPP source files need to be specified in the `Makefile` for GHDL + Accellera SystemC and `sim/questasim/eisv-mem-system/simulate.tcl` for QuestaSim based simulation.
+
+# Contributors
+
+
+- Jasper Homann (Technische Universität Braunschweig, [Chair for Chip Design for Embedded Computing](https://www.tu-braunschweig.de/eis))
+- Gia Bao Thieu (Technische Universität Braunschweig, [Chair for Chip Design for Embedded Computing](https://www.tu-braunschweig.de/eis))
+- Guillermo Payá Vayá (Technische Universität Braunschweig, [Chair for Chip Design for Embedded Computing](https://www.tu-braunschweig.de/eis))
+
+# License
+
+This open-source project is distributed under the MIT license.
+
+# Citation
+
+A publication describing the EIS-V is being worked on.
+In the meantime please cite this repository in publications.
