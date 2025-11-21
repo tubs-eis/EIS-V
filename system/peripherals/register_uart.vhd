@@ -1,6 +1,6 @@
 --  SPDX-License-Identifier: MIT
---  SPDX-FileCopyrightText: TU Braunschweig, Institut fuer Theoretische Informatik
---  SPDX-FileCopyrightText: 2021, Chair for Chip Design for Embedded Computing, https://www.tu-braunschweig.de/eis
+--  SPDX-FileCopyrightText: XXXX
+--  SPDX-FileCopyrightText: 2021, XXXX
 --  SPDX-FileContributor: Sven Gesper <s.gesper@tu-braunschweig.de>
 --
 library ieee;

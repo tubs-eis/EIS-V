@@ -1,6 +1,6 @@
 --  SPDX-License-Identifier: MIT
---  SPDX-FileCopyrightText: TU Braunschweig, Institut fuer Theoretische Informatik
---  SPDX-FileCopyrightText: 2024, Chair for Chip Design for Embedded Computing, https://www.tu-braunschweig.de/eis
+--  SPDX-FileCopyrightText: XXXX
+--  SPDX-FileCopyrightText: 2024, XXXX
 --  Description: BRAM inferrring RAM with 2 read and 2 write ports
 library ieee;
 use ieee.std_logic_1164.all;

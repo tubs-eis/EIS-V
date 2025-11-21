@@ -4,8 +4,6 @@ A basic 5-stage pipelined RISC-V RV32I_Zicsr M-Mode implementation supporting sy
 
 For getting started quickly this repo also contains a basic system, including an UART for external communication, for which GateMate and Arty top-level VHDL files as well as a SystemC simulation model are provided. Simulation is supported using both QuestaSim and GHDL + Accellera SystemC.
 
-This release is part of the [DI-GATE-V](https://www.tu-braunschweig.de/eis/forschung-und-projekte/di-gate-v) project funded as part of the [DE:Sign](https://www.elektronikforschung.de/foerderung/bekanntmachungen/design) program by the German Federal Ministry of Education and Research (BMBF).
-
 ## Simulation and Synthesis Environment
 
 The EIS-V core is connected to its environment via two memory interfaces the data memory read interface used to perform load and store instructions and the instruction memory interface used to fetch instructions from memory for execution.
@@ -76,10 +74,7 @@ Additional CPP source files need to be specified in the `Makefile` for GHDL + Ac
 
 # Contributors
 
-
-- Jasper Homann (Technische Universität Braunschweig, [Chair for Chip Design for Embedded Computing](https://www.tu-braunschweig.de/eis))
-- Gia Bao Thieu (Technische Universität Braunschweig, [Chair for Chip Design for Embedded Computing](https://www.tu-braunschweig.de/eis))
-- Guillermo Payá Vayá (Technische Universität Braunschweig, [Chair for Chip Design for Embedded Computing](https://www.tu-braunschweig.de/eis))
+XXXX
 
 # License
 
@@ -87,5 +82,4 @@ This open-source project is distributed under the MIT license.
 
 # Citation
 
-A publication describing the EIS-V is being worked on.
-In the meantime please cite this repository in publications.
+XXXX
