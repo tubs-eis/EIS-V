@@ -4,7 +4,7 @@ A basic 5-stage pipelined RISC-V RV32I_Zicsr M-Mode implementation supporting sy
 
 For getting started quickly this repo also contains a basic system, including an UART for external communication, for which GateMate and Arty top-level VHDL files as well as a SystemC simulation model are provided. Simulation is supported using both QuestaSim and GHDL + Accellera SystemC.
 
-This release is part of the [DI-GATE-V](https://www.tu-braunschweig.de/eis/forschung-und-projekte/di-gate-v) project funded as part of the [DE:Sign](https://www.elektronikforschung.de/foerderung/bekanntmachungen/design) program by the German Federal Ministry of Education and Research (BMBF).
+This release is part of the [DI-GATE-V](https://www.tu-braunschweig.de/eis/forschung-und-projekte/di-gate-v) project funded as part of the [DE:Sign](https://www.elektronikforschung.de/foerderung/bekanntmachungen/design) program by the German Federal Ministry of Research, Technology and Space (BMFTR).
 
 ## Simulation and Synthesis Environment
 
